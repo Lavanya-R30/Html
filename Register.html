@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="Form.css">
+        <link rel="stylesheet" href="Form.css">
+      
+    </head>
+
+    <body>
+        <div class="h1Css" >
+            <h1><center>Registration Form<center></center></h1>
+        </div>
+
+        <form class="formClass">
+            <br>
+           <div id="nameId">
+            Name:<span style="color: crimson;">* </span><input type="text" name="nameInput" required>
+           </div>
+<br>
+           <div id="emailId">
+            Email ID:<span style="color: crimson;">*</span><input type="email" name="emailInput" required>
+           </div>
+
+           <br>
+
+           <div id="numberId">
+            Contact Number:<span style="color: crimson;">*</span><input type="number" name="contact NUmber" required>
+            </div>
+            <br>
+
+            <div id="genderId">
+                Please select Gender:
+                <input type="radio" id="male" name="radioBox" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="radioBox" value="Female">
+                <label for="female">Female</label>
+            </div>
+            <br>
+
+            <div id="shiftId">
+                Select Shift:
+                <select>
+                    <option value="MorningShift">Morning</option>
+                    <option value="EveningShift">Evening</option>
+                </select>
+            </div>
+<br>
+
+            <div id="courseId">
+                Select course:
+                <select>
+                    <Option>Java</Option>
+                    <option>Web</option>
+                    <option>Sql</option>
+                </select>
+            </div>
+            <br>
+
+            <div id="technology">
+                Select Technologies:
+                <input type="checkbox" id="inp1" name="checkName">
+                <label for="inp1">Java</label>
+                <input type="checkbox" id="inp2" name="checkName">
+                <label for="inp2">Python</label>
+            </div><br>
+
+            <button class="btclass" type="submit">Submit</button>
+            <button class="btclass" type="cancel">Reset</button>
+
+        </form>
+    </body>
+</html>

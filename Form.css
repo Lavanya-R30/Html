@@ -1,0 +1,29 @@
+.h1Css{
+    background-color: aqua;
+}
+
+.btclass{
+    background-color: brown;
+    border-radius: 5vh;
+    background-color: darkgoldenrod;
+}
+
+.formClass{
+    background-color: rgba(red, green, blue, alpha);
+    color: black;
+    border-radius: 2vh;
+    margin-left: 60vh;
+   margin-right:  60vh;
+   padding-left: 20vh;
+    border: 2px solid;
+    height: auto;
+    
+}
+
+#submitid{
+    background-color:pink;
+}
+
+#cancelid{
+    background-color: pink;
+}
